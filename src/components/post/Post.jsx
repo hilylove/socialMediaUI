@@ -1,6 +1,7 @@
 import "./post.css";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import { Users } from "../../dummyData";
+import { useState } from "react";
 
 const Post = ({ post }) => {
   return (
